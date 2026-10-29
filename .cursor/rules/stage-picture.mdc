@@ -1,0 +1,49 @@
+---
+description: One stage, role colors, a ground that shifts with the scene, and a diagram that moves. A sentence on a dark card is not the proof.
+alwaysApply: true
+---
+
+# Hình đi trước câu
+
+Một sân, màu có vai, sơ đồ mọc thêm từng bước, một dải chữ dưới cùng. Không lưới neon, không gradient tím, không font Inter, không card lồng card, không thanh tiến trình, không watermark.
+
+Vai màu và font giữ cho cả series. Nền đổi theo sân.
+
+## Vai màu
+
+- Nhãn `#f4f1ea`.
+- Số và câu hỏi `#e7c56a`.
+- Bước đang chạy, phía nhanh `#7dcec4`.
+- Chỗ tốn kém, phía chậm `#e07a5f`.
+- Font Be Vietnam Pro Bold trong `public/fonts/BeVietnamPro-Bold.ttf`.
+
+Một từ đổi màu khi nó là số, câu hỏi, bước đang chạy, hoặc chỗ gãy. Trên dòng follow, tên kênh là từ vàng.
+
+## Nền theo sân
+
+Nền gốc `#0c0f14`. Mỗi sân lệch một chút trong họ màu tối này: lạnh hơn khi sân đang chỉ phía nhanh, ấm hơn khi sân đang chỉ chỗ tốn. Đổi nền lúc đổi sân, bằng một nhát cắt hoặc một vệt màu dưới nửa giây.
+
+Ô bảng `#1c2430`. Hàng đang chạm lấy màu vai, đậm hơn nền: lục cho phía nhanh, cam cho phía chậm. Số là chữ lớn nhất của beat. Thanh chậm dài và cam, thanh nhanh ngắn và lục, cả hai nhìn ra là thanh trên điện thoại.
+
+## Sân khấu
+
+- Frame 0 đã có một vật đang làm việc. Câu hook đứng cạnh vật đó. Vật đầu là ví dụ đời thường của ý đó, rồi sân sau mới là bảng, cột, hoặc lệnh.
+- Một chương dùng một sân. Beat sau thêm một dấu, một mũi tên, một dòng, hoặc một số lên sân đó.
+- Đổi sân khi chủ thể đổi. Đổi sân vì hết câu là sai.
+- Chỗ trống lớn. Một cụm ở giữa. Không trải card cho kín khung.
+- Vùng an toàn: không chữ trong 168 px trên cùng, không chữ dưới y=1330, cỡ từ 28 px. Dải chữ nằm trong vùng này, sát đáy an toàn.
+
+## Chứng minh
+
+- Có giao diện đang chạy thì quay ShareX. Thiếu footage thì ghi placeholder. Không vẽ cửa sổ giả rồi gọi là đã chạy.
+- So sánh thì hai cột hoặc một bảng trước/sau trên cùng một sân. Người chưa đọc chữ vẫn thấy phía nào chậm, phía nào nhanh.
+- Con trỏ nhảy: vài nhịp ngắn, rồi tới đúng dòng. Không cho con trỏ bò hết bảng.
+- Số lấy từ `measure.md` hoặc nguồn đã ghi. Dòng dưới số nói bảng nào, trong bộ nhớ hay trên đĩa.
+
+## Nhịp
+
+Cứ 2–4 giây có một dấu mới trên sân. Sơ đồ vẫn chạy trong lúc dải chữ đang giữ. Hình và chữ không cùng đứng quá 3 giây. Cú nhảy trong sân dùng ease ra trong khoảng 0,16–0,2 giây, đủ để thấy nó đáp vào đâu.
+
+## Dải chữ khi chưa có tiếng
+
+Dải dưới là lời giảng: một hoặc hai câu nói được, giữ khoảng 5–6 giây. Câu nói việc người xem đang hỏi, hệ thống làm gì, và số đó thuộc đâu. Một từ mang màu vai. Câu dẫn ý của sơ đồ, không lấy nhãn đã in trên sơ đồ làm toàn bộ nội dung.

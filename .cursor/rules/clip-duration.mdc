@@ -1,0 +1,31 @@
+---
+description: Clip length follows the content. Propose a duration and wait for approval before locking scope.
+alwaysApply: true
+---
+
+# Clip duration
+
+Độ dài clip do nội dung quyết định. Không khóa 20 giây, 25 giây, 30 giây, hay bất kỳ mốc cố định nào.
+
+`docs/tiktokDA.md` nói thẳng: không có một độ dài video nào bảo đảm thành công. Cắt nhanh cho có cảm giác nhanh là sai. Một cảnh 5 giây đáng giữ nếu nó cho người xem thấy một thao tác hoặc một ý họ cần. Một cảnh 1 giây đáng bỏ nếu họ không kịp hiểu.
+
+## Phạm vi
+
+- Clip trong factory này: **từ nội dung thực tế đến tối đa 5 phút (300 giây)**.
+- Test kỹ thuật (font, safe zone, render): khoảng 5 giây vẫn được, vì đó không phải episode.
+- Trên 5 phút: dừng và hỏi, vì đó vượt trần của factory này.
+
+## Cổng duyệt
+
+Trước khi chốt scope một episode thật — trước storyboard có mốc giây, trước `durationInFrames` của composition, trước render pilot — đề xuất thời lượng và **dừng để người làm dự án duyệt**.
+
+Đề xuất gồm:
+
+1. **Số giây đề xuất**, và một phương án ngắn hơn cộng một phương án dài hơn.
+2. **Vì sao ngần ấy giây**: beat nào cần thời gian để người xem kịp thấy (demo, sơ đồ, payoff).
+3. **Mất gì nếu ngắn hơn**, **thêm gì nếu dài hơn**.
+4. Câu hỏi duyệt: chốt số này, chọn phương án kia, hay sửa.
+
+Chưa có câu trả lời thì chưa viết timestamp, chưa dựng composition episode, chưa render.
+
+Sau khi được duyệt, số giây đó là độ dài của episode. Đổi độ dài sau đó là một quyết định mới, không phải chỉnh ngầm khi dựng.

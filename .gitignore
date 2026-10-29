@@ -1,0 +1,27 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+
+# Draft renders from the clip loop
+exports
+
+# Local KorvaTTS environment
+.venv-tts
+__pycache__/
+*.pyc
+
+# Listen-test takes. The 36-line set in assets/voice is the source.
+episodes/**/assets/voice-trial/
+
+# Remotion plays a copy from public/. Source wavs stay in the episode folder.
+public/voice/
+
+# Windows and local logs
+Thumbs.db
+Desktop.ini
+*.log
+

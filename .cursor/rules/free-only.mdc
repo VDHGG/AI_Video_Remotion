@@ -1,0 +1,32 @@
+---
+description: Absolute rule — if a free path exists, use it. The project has no budget.
+alwaysApply: true
+---
+
+# Free only
+
+Cái gì dùng free được thì phải dùng free. Người làm dự án không có tiền để bắt đầu.
+
+This rule wins over convenience, defaults, and tool suggestions.
+
+## Do
+
+- Render locally with Remotion, Node.js, and FFmpeg already on the machine.
+- Use free local tools: ShareX for capture, Whisper on the machine with language `vi` for a first caption pass, and fonts under OFL or another free license.
+- Remotion is free for an individual or a company of up to 3 people. Stay on that license.
+- Stop and ask before any step that spends money.
+
+## Do not
+
+- Do not call a paid API, HeyGen credit, cloud render, Remotion Lambda, avatar, voice clone, or hosted TTS when a free path exists.
+- Do not run `heygen auth`, `npx remotion lambda`, or a render that leaves this machine.
+- Do not install a paid subscription, buy a Remotion company license, or add a secret key to make a prototype work.
+- Do not treat "better quality" as a reason to spend money. Quality comes from the free local path plus human review.
+
+## Example
+
+```text
+Need a voiceover.
+Free path: the person records their own voice, or captions only.
+Paid path: HeyGen voice. Forbidden until the person explicitly approves spending money.
+```

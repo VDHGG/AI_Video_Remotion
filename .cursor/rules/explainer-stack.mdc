@@ -1,0 +1,21 @@
+---
+description: Local free stack for Vietnamese TikTok explainers. Remotion renders on this machine. Other tools stay optional and local.
+alwaysApply: true
+---
+
+# Explainer stack
+
+Nguồn: đoạn stack trong `docs/tiktokDA.md` từ mục "Nên ưu tiên". Đây là cách làm, không phải công thức viral.
+
+## Trong stack
+
+- **Remotion local** là renderer. Composition, media, animation, phụ đề render bằng FFmpeg trên máy. Không Lambda, không cloud render.
+- **Kịch bản:** 2–3 hook cho một ý. Chọn một lời hứa mà hình trong clip chứng minh được. Rubric lọc: đúng việc đang nói, hook đọc được, payoff nhìn thấy, tiếng Việt tự nhiên, hết câu sáo. Người duyệt câu chữ. `promptfoo` (MIT, chạy local) là cách so sánh vài bản nháp cạnh nhau khi cần. Chưa cài thì chấm rubric bằng tay. Không gửi script đi chấm hộ.
+- **Hình:** ShareX khi có giao diện thật. Composition vẽ sơ đồ khi khái niệm không có màn hình để quay. Vai màu và font giữ cả series. Nền đổi theo sân. Cách dựng sân, bảng trước/sau, và dải chữ nằm ở `.cursor/rules/stage-picture.mdc`.
+- **Chữ và tiếng:** ưu tiên người tự thu. Chưa có tiếng thì dải dưới là lời giảng, mỗi câu giữ khoảng 5–6 giây, theo `.cursor/rules/human-voice.mdc`. Đã có audio thì Whisper trên máy, model small, language `vi`, người đọc lại trước khi lên hình. WhisperX chỉ khi cần mốc từng từ và công cụ đã có trên máy. KorvaTTS (local, ONNX) chỉ sau khi người làm dự án đồng ý riêng cho episode đó.
+- **Chu trình:** `.cursor/rules/clip-loop.mdc`. Tự đối chiếu xong rồi mới đưa bản draft.
+- **Sau khi đăng:** một dòng số liệu TikTok đang cho video đó (xem trung bình, xem hết, chia sẻ, hoặc bình luận). Lần sau đổi một yếu tố. Chưa đăng thì chưa ghi số.
+
+## Ngoài stack
+
+Onda, HeyGen, avatar, voice clone, Lambda, cloud render, đăng TikTok tự động. `storytelling-frameworks` chỉ gợi nhịp vấn đề rồi phát hiện rồi kết quả. Phần chứng minh của clip hướng dẫn vẫn là hình thật hoặc sơ đồ được ghi rõ là sơ đồ.

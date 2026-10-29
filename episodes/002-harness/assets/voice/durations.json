@@ -1,0 +1,218 @@
+[
+  {
+    "id": "basket-01",
+    "screen": "Bạn chỉ nhắn một câu, rồi đợi giỏ đồ về.",
+    "spoken": "Bạn chỉ nhắn một câu, rồi đợi giỏ đồ về.",
+    "seconds": 2.84
+  },
+  {
+    "id": "basket-02",
+    "screen": "Về tới nhà, giỏ thiếu rau.",
+    "spoken": "Về tới nhà, giỏ thiếu rau.",
+    "seconds": 2.15
+  },
+  {
+    "id": "basket-03",
+    "screen": "Câu đã gửi. Rau vẫn không có trong giỏ.",
+    "spoken": "Câu đã gửi. Rau vẫn không có trong giỏ.",
+    "seconds": 2.713
+  },
+  {
+    "id": "prompt-01",
+    "screen": "Prompt engineering là cách bạn viết câu giao việc.",
+    "spoken": "Prompt engineering là cách bạn viết câu giao việc.",
+    "seconds": 2.801
+  },
+  {
+    "id": "prompt-02",
+    "screen": "Câu mới ghi rau thơm, thịt, mì,\nvà chợ đầu ngõ.",
+    "spoken": "Câu mới ghi rau thơm, thịt, mì, và chợ đầu ngõ.",
+    "seconds": 3.529
+  },
+  {
+    "id": "prompt-03",
+    "screen": "Câu rõ giúp người đi chợ hiểu việc.",
+    "spoken": "Câu rõ giúp người đi chợ hiểu việc.",
+    "seconds": 2.173
+  },
+  {
+    "id": "prompt-04",
+    "screen": "Người đi chợ vẫn có thể quên rau.",
+    "spoken": "Người đi chợ vẫn có thể quên rau.",
+    "seconds": 2.306
+  },
+  {
+    "id": "table-01",
+    "screen": "Context engineering là đồ bạn đặt sẵn\ntrước mặt người đi chợ.",
+    "spoken": "Context engineering là đồ bạn đặt sẵn trước mặt người đi chợ.",
+    "seconds": 3.762
+  },
+  {
+    "id": "table-02",
+    "screen": "Tờ giấy, tiền, và tên chợ nằm trên bàn.",
+    "spoken": "Tờ giấy, tiền, và tên chợ nằm trên bàn.",
+    "seconds": 2.961
+  },
+  {
+    "id": "table-03",
+    "screen": "Tờ giấy ghi sai rau, người đi chợ mua sai rau.",
+    "spoken": "Tờ giấy ghi sai rau, người đi chợ mua sai rau.",
+    "seconds": 3.191
+  },
+  {
+    "id": "table-04",
+    "screen": "Với hệ thống, đó là tài liệu và việc vừa xảy ra,\nđặt sẵn lúc nó làm.",
+    "spoken": "Với hệ thống, đó là tài liệu và việc vừa xảy ra, đặt sẵn lúc nó làm.",
+    "seconds": 4.964
+  },
+  {
+    "id": "table-05",
+    "screen": "Đủ đồ trên bàn. Chưa ai đếm lại giỏ.",
+    "spoken": "Đủ đồ trên bàn. Chưa ai đếm lại giỏ.",
+    "seconds": 2.615
+  },
+  {
+    "id": "loop-01",
+    "screen": "Harness engineering là vòng quanh lần đi chợ,\nsau khi Prompt và Context đã có.",
+    "spoken": "Harness engineering là vòng quanh lần đi chợ, sau khi Prompt và Context đã có.",
+    "seconds": 4.996
+  },
+  {
+    "id": "loop-02",
+    "screen": "Prompt và Context nằm trong vòng này.\nVòng hỏi việc đã xong chưa.",
+    "spoken": "Prompt và Context nằm trong vòng này. Vòng hỏi việc đã xong chưa.",
+    "seconds": 4.33
+  },
+  {
+    "id": "loop-03",
+    "screen": "Được vào quầy rau.\nKhông mua món ngoài danh sách.",
+    "spoken": "Được vào quầy rau. Không mua món ngoài danh sách.",
+    "seconds": 3.167
+  },
+  {
+    "id": "loop-04",
+    "screen": "Làm xong, nhìn lại từng dòng.\nThịt có, mì có, rau chưa có.",
+    "spoken": "Làm xong, nhìn lại từng dòng. Thịt có, mì có, rau chưa có.",
+    "seconds": 4.185
+  },
+  {
+    "id": "loop-05",
+    "screen": "Thiếu rau thì quay lại quầy.\nChưa mang giỏ thiếu về nhà.",
+    "spoken": "Thiếu rau thì quay lại quầy. Chưa mang giỏ thiếu về nhà.",
+    "seconds": 3.704
+  },
+  {
+    "id": "loop-06",
+    "screen": "Đủ ba món thì về.\nNgười nhà xem giỏ, rồi mới nấu.",
+    "spoken": "Đủ ba món thì về. Người nhà xem giỏ, rồi mới nấu.",
+    "seconds": 3.725
+  },
+  {
+    "id": "loop-07",
+    "screen": "Không ghé thêm quầy cho có.",
+    "spoken": "Không ghé thêm quầy cho có.",
+    "seconds": 1.765
+  },
+  {
+    "id": "system-01",
+    "screen": "Với hệ thống, vòng này cũng đi từng bước.",
+    "spoken": "Với hệ thống, vòng này cũng đi từng bước.",
+    "seconds": 2.654
+  },
+  {
+    "id": "system-02",
+    "screen": "Permission.\nChỉ làm việc bạn đã cho phép.",
+    "spoken": "Permission. Chỉ làm việc bạn đã cho phép.",
+    "seconds": 2.798
+  },
+  {
+    "id": "system-03",
+    "screen": "Check.\nLàm xong thì đối chiếu với việc đã giao.",
+    "spoken": "Check. Làm xong thì đối chiếu với việc đã giao.",
+    "seconds": 3.025
+  },
+  {
+    "id": "system-04",
+    "screen": "Retry.\nThiếu thì làm lại.",
+    "spoken": "Retry. Thiếu thì làm lại.",
+    "seconds": 2.031
+  },
+  {
+    "id": "system-05",
+    "screen": "Stop.\nĐủ thì dừng.",
+    "spoken": "Stop. Đủ thì dừng.",
+    "seconds": 1.797
+  },
+  {
+    "id": "system-06",
+    "screen": "Review.\nBạn xem lại trước khi nhận.",
+    "spoken": "Review. Bạn xem lại trước khi nhận.",
+    "seconds": 2.507
+  },
+  {
+    "id": "fake-01",
+    "screen": "Có danh sách. Không ai quay lại quầy.",
+    "spoken": "Có danh sách. Không ai quay lại quầy.",
+    "seconds": 2.466
+  },
+  {
+    "id": "fake-02",
+    "screen": "Giỏ vẫn thiếu rau. Dấu done vẫn hiện.",
+    "spoken": "Giỏ vẫn thiếu rau. Dấu done vẫn hiện.",
+    "seconds": 2.616
+  },
+  {
+    "id": "fake-03",
+    "screen": "Tờ giấy nằm yên.\nQuay lại quầy thì vòng mới chạy.",
+    "spoken": "Tờ giấy nằm yên. Quay lại quầy thì vòng mới chạy.",
+    "seconds": 3.299
+  },
+  {
+    "id": "compare-01",
+    "screen": "Chỉ có Prompt, giỏ về thiếu rau.",
+    "spoken": "Chỉ có Prompt, giỏ về thiếu rau.",
+    "seconds": 2.402
+  },
+  {
+    "id": "compare-02",
+    "screen": "Có Context, đúng món cần mua,\nvẫn có thể thiếu.",
+    "spoken": "Có Context, đúng món cần mua, vẫn có thể thiếu.",
+    "seconds": 3.16
+  },
+  {
+    "id": "compare-03",
+    "screen": "Có Harness, thiếu rau thì quay lại,\nrồi mới về.",
+    "spoken": "Có Harness, thiếu rau thì quay lại, rồi mới về.",
+    "seconds": 3.324
+  },
+  {
+    "id": "rule-01",
+    "screen": "Sửa Prompt khi hệ thống hiểu sai việc bạn giao.",
+    "spoken": "Sửa Prompt khi hệ thống hiểu sai việc bạn giao.",
+    "seconds": 3.019
+  },
+  {
+    "id": "rule-02",
+    "screen": "Đưa Context khi hệ thống thiếu thông tin,\nhoặc Context đang sai.",
+    "spoken": "Đưa Context khi hệ thống thiếu thông tin, hoặc Context đang sai.",
+    "seconds": 3.885
+  },
+  {
+    "id": "rule-03",
+    "screen": "Dựng Harness khi làm xong\nvẫn cần biết đúng hay sai.",
+    "spoken": "Dựng Harness khi làm xong vẫn cần biết đúng hay sai.",
+    "seconds": 3.305
+  },
+  {
+    "id": "rule-04",
+    "screen": "Prompt không kiểm được giỏ.",
+    "spoken": "Prompt không kiểm được giỏ.",
+    "seconds": 1.827
+  },
+  {
+    "id": "follow-01",
+    "screen": "Hãy Follow Anh 40 học AI để cập nhật nhiều thông tin về AI hơn.",
+    "spoken": "Hãy Follow Anh bốn mươi học AI để cập nhật nhiều thông tin về AI hơn.",
+    "seconds": 4.219
+  }
+]
